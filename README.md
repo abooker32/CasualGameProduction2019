@@ -1,6 +1,5 @@
-# CasualGameProduction2019
-
-Group7
+# Casual Game Production 2019
+##Group 7
 
 - Brad
 - Alex

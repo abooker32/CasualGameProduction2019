@@ -65,8 +65,9 @@
     <Compile Include="Assets\Scripts\AudioProcessor.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MusicTempo.cs" />
+    <Compile Include="Assets\Scripts\NoteMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayHandler.cs" />
     <Compile Include="Assets\Scripts\RhythmHandler.cs" />
-    <Compile Include="Assets\Scripts\UIHandler.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

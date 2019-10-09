@@ -14,7 +14,8 @@ public class RhythmHandler : MonoBehaviour
     public float dsptimesong;
     public AudioSource backgroundTrack;
     public AudioSource mainInstrumentTrack;
-    public GameObject noteOBJ;
+    public GameObject notePrefab;
+    public GameObject beginPoint;
     private float beatsShownInAdvance = 1;
 
     void Start()
@@ -38,7 +39,7 @@ public class RhythmHandler : MonoBehaviour
         songPosInBeats = songPosition / secPerBeat;
         if (nextIndex < notes.Length && notes[nextIndex] < songPosInBeats + beatsShownInAdvance)
         {
-            Instantiate(noteOBJ, new Vector3(Random.Range(-8, 8), Random.Range(1, 8)), Quaternion.identity);
+            Instantiate(notePrefab, beginPoint.transform.position, Quaternion.identity, beginPoint.transform);
             nextIndex++;
         }
 
